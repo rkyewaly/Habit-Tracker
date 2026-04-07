@@ -2,8 +2,8 @@
 
 //connection string
 $servername = "localhost";
-$username = "habitos";
-$password = "habitos";
+$username = "root";
+$password = "";
 $dbname = "habitos_db";
 $conn;
 
