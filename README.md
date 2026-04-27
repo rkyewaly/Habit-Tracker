@@ -1,0 +1,1 @@
+When testing with XAMPP + Netbeans, copy the Habit-Tracker folder to the htdocs folder located in your XAMPP binaries. Then when XAMPP is running, punch this into your browser URL to test the Index page: http://localhost/Habit-Tracker/index.php
