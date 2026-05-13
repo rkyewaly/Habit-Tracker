@@ -55,6 +55,8 @@ if ($_SERVER["REQUEST_METHOD"]==="POST") {
 $pageTitle="HabitOS — Partner";
 require_once __DIR__."/includes/header.php";
 
+if (!is_active()){echo_deactiveaccountmessage();}
+
 // my connections
 $stmt=$conn->prepare("
   SELECT uc.connection_id, uc.status, u.full_name, u.email, u.user_id

@@ -229,6 +229,7 @@ $msgStmt->execute();
 $messages = $msgStmt->get_result()->fetch_all(MYSQLI_ASSOC);
 
 require_once __DIR__ . "/includes/header.php";
+if (!is_active()){echo_deactiveaccountmessage();}
 ?>
 
 <style>
